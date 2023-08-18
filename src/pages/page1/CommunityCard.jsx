@@ -2,9 +2,9 @@ import React from "react";
 import "./CommunityCard.scss";
 
 const data = [
-  "/assets/community/1.jpg",
-  "/assets/community/2.jpg",
-  "/assets/community/3.png",
+  "../../../public/assets/community/1.jpg",
+  "../../../public/assets/community/2.jpg",
+  "../../../assets/community/3.png",
   "/assets/community/4.png",
 ];
 

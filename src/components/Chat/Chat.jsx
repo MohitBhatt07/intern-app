@@ -1,6 +1,9 @@
 import React from "react";
 import { BsChevronDown } from "react-icons/bs";
-
+import Profile from '../../assets/profile.png';
+import Chat2 from '../../assets/chat2.jpg';
+import Chat3 from '../../assets/chat3.jpg';
+import Chat4 from '../../assets/chat4.jpeg';
 import "./Chat.scss";
 import {IoSend} from 'react-icons/io5';
 
@@ -15,7 +18,7 @@ function Chat() {
       </div>
       <div className="chats">
         <div className="chat">
-          <img className="image" alt="" src="/assets/profile.png"></img>
+          <img className="image" alt="" src={Profile}></img>
           <div className="details">
             <div className="detail">
               <span>Adam Smith</span>
@@ -28,7 +31,7 @@ function Chat() {
           </div>
         </div>
         <div className="chat">
-          <img className="image" alt="" src="/assets/chat2.jpg"></img>
+          <img className="image" alt="" src={Chat2}></img>
           <div className="details">
             <div className="detail">
               <span>Emily Brown</span>
@@ -55,7 +58,7 @@ function Chat() {
         </div>
 
         <div className="chat">
-          <img className="image" alt="" src="/assets/chat3.jpg"></img>
+          <img className="image" alt="" src={Chat3}></img>
           <div className="details">
             <div className="detail">
               <span>Adam Smith</span>
@@ -75,7 +78,7 @@ function Chat() {
         </div>
 
         <div className="chat">
-          <img className="image" alt="" src="/assets/chat4.jpeg"></img>
+          <img className="image" alt="" src={Chat4}></img>
           <div className="details">
             <div className="detail">
               <span>Music Theories</span>
