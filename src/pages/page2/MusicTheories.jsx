@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import {FaMusic} from 'react-icons/fa';
 import'./MusicTheories.scss';
 import {LuNewspaper} from 'react-icons/lu';
@@ -6,12 +6,16 @@ import {PiLightbulbFill} from 'react-icons/pi';
 import {FaBook} from 'react-icons/fa';
 import {BiSolidBookmark} from 'react-icons/bi';
 import MusicCard from './MusicCard';
+import first from '../../assets/musicLib/guitar.jpg';
+import second from '../../assets/musicLib/second.jpg';
+import third from '../../assets/musicLib/thirdRoom.jpeg';
+import fourth from '../../assets/musicLib/4th.jpeg';
 
 import RightHalf from './RightHalf';
 
 
 const data = [{
-  src : '/assets/musicLib/guitar.jpg',
+  src : first,
   name : 'Latest News',
   description1 : 'Discover the latest updates',
   description2 : 'Stay up to data with the music world',
@@ -19,21 +23,21 @@ const data = [{
  
 },
 {
-  src : '/assets/musicLib/second.jpg',
+  src : second,
   name : 'Music Practice Tips',
   description1 : 'Improve your skills',
   description2 : 'Enhance your music abilities',
   icon: <PiLightbulbFill/>
 },
 {
-  src : '/assets/musicLib/thirdRoom.jpeg',
+  src : third,
   name : 'Music Instruments Guide',
   description1 : 'Discover different instruments',
   description2 : 'Explore their unique sounds',
   icon: <FaBook/>
 },
 {
-  src : '/assets/musicLib/4th.jpeg',
+  src : fourth,
   name : 'Latest News',
   description1 : 'Discover the latest updates',
   description2 : 'Stay up to data with the music world',

@@ -8,7 +8,7 @@ import{TfiWrite} from 'react-icons/tfi';
 import {IoMdSettings} from 'react-icons/io';
 import {PiSignOutBold} from 'react-icons/pi';
 import ActiveContext from "../../Context/Context";
-
+import Profile from '../../assets/profile.png';
 function Sidebar() {
   const ctx = useContext(ActiveContext);
   
@@ -18,7 +18,7 @@ function Sidebar() {
     <div className={`sidebar ${sidebarClass}`}>
       <div className="idItem">
         <div className="image">
-          <img src="/assets/profile.png" alt="profile" onClick={ctx.onTap}></img>
+          <img src={Profile} alt="profile" onClick={ctx.onTap}></img>
         </div>
         <div className="nameId">
           <span>Music Theory</span>

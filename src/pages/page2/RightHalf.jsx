@@ -2,18 +2,20 @@ import React from "react";
 import "./RightHalf.scss";
 import { FaClock } from "react-icons/fa";
 import { AiTwotoneStar } from "react-icons/ai";
+import Image from '../../assets/second.jpeg';
+import Bottom from '../../assets/bottom.jpg';
 
 function RightHalf() {
   return (
     <div className="right-half">
       <div className="rh-image">
-        <img src="/assets/second.jpeg" alt="" />
+        <img src={Image} alt="" />
       </div>
       <div className="rh-bottom">
         <div className="rh-title">Music Instruments</div>
         <div className="learn-card">
           <div className="image">
-            <img src="/assets/bottom.jpg" alt=""></img>
+            <img src={Bottom} alt=""></img>
           </div>
           <span>Learn About</span>
         </div>

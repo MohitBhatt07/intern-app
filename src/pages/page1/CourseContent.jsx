@@ -5,7 +5,7 @@ import MainCard from "../../Ui/MainCard";
 import{GoDotFill} from 'react-icons/go';
 import {RiTimerFill} from 'react-icons/ri';
 import Community from "./Community";
-
+import Image from '../../assets/chat2.jpg';
 function CourseContent() {
   return (
     <div className="course-content">
@@ -15,7 +15,7 @@ function CourseContent() {
           <span>Music Basics</span>
           <div className="side-content">
             <div className="image"> 
-              <img src="/assets/chat2.jpg" alt=""></img>
+              <img src={Image} alt=""></img>
             </div>
             <span>John Mayer</span>
           </div>

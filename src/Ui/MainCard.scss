@@ -1,19 +1,18 @@
-.main-card{
+.main-card {
   position: relative;
-  background-image: url('../../public/assets/pianoMain.jpg');
+  background-image: url("../assets/pianoMain.jpg");
   height: 45vh;
   margin-top: 15px;
-  width :100%;
+  width: 100%;
   background-size: cover;
   background-position: center;
-  border-radius: 25px;  
-  
+  border-radius: 25px;
 
-  .bottom-player{
+  .bottom-player {
     position: absolute;
     border-radius: 25px;
-    background-color: rgb(255, 254, 254,0.5);
-    bottom:0px;
+    background-color: rgb(255, 254, 254, 0.5);
+    bottom: 0px;
     width: 97.4%;
     display: flex;
     gap: 10px;
@@ -21,10 +20,26 @@
     justify-content: center;
     align-items: center;
 
-    .player-icons{
+    .player-icons {
       border-radius: 50%;
       padding: 5px;
       background-color: white;
+    }
+  }
+  .top-right-content {
+    position: absolute;
+
+    top: 20px;
+    right: 20px;
+    .top-right {
+      margin-bottom: 10px;
+      background-color: rgb(24, 23, 23);
+      height: 24px;
+      width: 23px;
+      border-radius: 50%;
+     
+      padding-top: 5px;
+      padding-left: 5px;
     }
   }
 }
