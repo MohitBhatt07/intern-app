@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/intern-app/static/css/main.a6ccc786.css",
+    "main.js": "/intern-app/static/js/main.bc0dc66f.js",
+    "static/js/787.ed25c533.chunk.js": "/intern-app/static/js/787.ed25c533.chunk.js",
+    "static/media/pianoMain.jpg": "/intern-app/static/media/pianoMain.31ec4171c7f381f8b97e.jpg",
+    "index.html": "/intern-app/index.html",
+    "main.a6ccc786.css.map": "/intern-app/static/css/main.a6ccc786.css.map",
+    "main.bc0dc66f.js.map": "/intern-app/static/js/main.bc0dc66f.js.map",
+    "787.ed25c533.chunk.js.map": "/intern-app/static/js/787.ed25c533.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6ccc786.css",
+    "static/js/main.bc0dc66f.js"
+  ]
+}
