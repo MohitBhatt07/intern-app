@@ -1,0 +1,117 @@
+.sidebar,
+.inactive {
+  position: fixed;
+  z-index: 10;
+  transition: width 0.4s;
+  padding: 30px 20px 0px 20px;
+  background-color: rgb(37, 37, 37);
+  min-height: 100vh;
+  width: 14vw;
+
+  .idItem {
+    background-color: white;
+    border-radius: 25px;
+    height: 50px;
+    display: flex;
+    margin: 10px 0px;
+
+    .image {
+      transition: all 0.5s;
+      height: 40px;
+      width: 40px;
+      margin: auto 0px auto 10px;
+      // border: 1px solid black;
+      border-radius: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        max-height: 100%;
+        width: 100%;
+        object-fit: fill;
+        border-radius: 50%;
+      }
+    }
+
+    .nameId {
+      margin: auto 0px auto 10px;
+      display: flex;
+      flex-direction: column;
+
+      span {
+        font-size: 0.7rem;
+      }
+    }
+  }
+  .bottom-tabs{
+    padding-top: 5px;
+    width: 150px;
+    position: absolute;
+    bottom: 20px;
+    left: 10;
+    border-top: 1px solid white;
+  }
+  .tabs {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .item {
+      padding: 10px 0px 10px 10px;
+      display: flex;
+      align-items: center;
+
+      gap: 10px;
+      border-radius: 25px;
+      &:hover {
+        background-color: white;
+        .icon {
+          color: black;
+        }
+        span {
+          color: black;
+        }
+      }
+      .icon {
+        color: rgb(255, 251, 251);
+        font-size: 20px;
+      }
+      span {
+        color: white;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.inactive {
+  width: 60px;
+  transition: all 0.5s;
+  .idItem {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(37, 37, 37);
+    .image {
+      width: 100%;
+      transition: all 1s;
+      margin: auto 0px auto 0px;
+      img {
+        height: 60px;
+        width: 60px;
+      }
+    }
+    .nameId {
+      visibility: hidden;
+    }
+  }
+  .bottom-tabs{
+    width: 50px;
+  }
+  .tabs {
+    span {
+      visibility: hidden;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.course-page,.inactiveBar{
+  // z-index: -1;
+  transition: all 1s;
+  position: absolute;
+  top: 5px;
+  left: 17vw;
+  width: 55vw;
+  .top-bar{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+      font-size: 1.5rem;
+    }
+    .side-content{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      
+
+      .search-bar{
+        border: 1px solid black;
+        border-radius: 25px;
+        background-color: white;
+        padding: 7px;
+        width: 23vw ;
+        display: flex;
+        align-items: center;
+        input{
+          width: 23vw;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+.inactiveBar{
+  transition: all 1s;
+  top: 5px;
+  left: 7vw;
+}

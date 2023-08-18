@@ -1,0 +1,54 @@
+
+.page-2{
+  position: relative;
+  width: 80vw;
+  background-color: rgb(218, 216, 216);
+  display: flex;
+
+  .music-theory{
+  height: 90vh;
+  width: 40%;
+  background-color: white;
+  padding: 140px 40px 50px 40px ;
+  // padding-right: 40px;
+  // padding-left: 40px;
+  .m-top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+      font-weight: 400;
+      font-size: 1.72rem;
+
+    }
+
+    .m-top-right{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      
+      span{
+        font-size: 0.8rem;
+        width: 40px;
+        white-space: nowrap;
+        font-weight: 500;
+        color: rgb(75, 74, 74);
+      }
+      .icon{
+        border: 1px solid black;
+        border-radius: 40%;
+        height: 40px;
+        width: 40px;
+        padding-left: 7%;
+        padding-top: 7%;        
+        background-color: black;
+      }
+    }
+  }
+  .m-bottom-content{
+    width: 95%;
+    height: 95%;
+  }
+}}

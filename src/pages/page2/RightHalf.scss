@@ -1,0 +1,84 @@
+.right-half{
+  position: absolute;
+  bottom: 1px;
+  padding-left: 10px;
+  // padding: 70px 0px 40px 90px;
+  right: -10px;
+  height: 90vh;
+  width: 40vw;
+  // margin-top: 30px;
+  .rh-image{
+    border-radius: 25px;
+    height: 40vh;
+    width: 90%;
+    overflow: hidden;
+    img{
+      height: 100%;
+      width: 100%;
+      display: block;
+    }
+
+  }
+  .rh-bottom{
+    padding-left: 15px;
+    margin-top: 20px;
+    .rh-title{
+      margin: 10px 0px ;
+      font-weight: 500;
+    }
+    .learn-card{
+      margin-bottom: 10px;
+      background-color: white;
+      border-radius: 25px;
+      width: 150px;
+      padding: 3px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      span{
+        font-weight: 500;
+        font-size: 0.8rem;
+        
+      }
+      .image{
+        height: 30px;
+        width: 30px;
+        overflow: hidden;
+        border-radius: 40%;
+        img{
+          height: 100%;
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+    .points{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 10px;
+
+      span{
+        font-weight: 500;
+        font-size: 0.8rem;        
+        color: #4e4d4d;
+      }
+    }
+    .rh-about{
+      h4{
+        margin-bottom: 10px;
+        font-weight: 500;
+      }
+      .about-content{
+        font-size: 0.8rem;
+        margin-top: 10px;
+      }
+    }
+    .last-buttons{
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+    }
+  }
+}
